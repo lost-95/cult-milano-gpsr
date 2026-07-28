@@ -106,6 +106,17 @@
       font-style: normal;
     }
 
+    a {
+      color: inherit;
+    }
+
+    .contact-link {
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
     .categories {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -193,15 +204,18 @@
         <h2>Fabbricante</h2>
 
         <address>
-          <strong>Cult Milano</strong><br>
-          [indirizzo postale completo]
+          <strong>CULT MILANO Srl</strong><br>
+          Corso di Porta Nuova 46/b
         </address>
       </article>
 
       <article class="panel">
         <h2>Contatto elettronico</h2>
 
-        <p>[indirizzo e-mail aziendale]</p>
+        <a
+          class="contact-link"
+          href="mailto:Ufficiocommerciale@cult-milano.it"
+        >Ufficiocommerciale@cult-milano.it</a>
       </article>
     </section>
 
@@ -211,41 +225,31 @@
       <div class="categories">
         <article class="category">
           <h3>MOCASSINO</h3>
-
-          <p>
-            Informazioni d’uso, manutenzione, conservazione e sicurezza.
-          </p>
-
+          <p>Informazioni d’uso, manutenzione, conservazione e sicurezza.</p>
           <span class="status">Documento in preparazione</span>
         </article>
 
         <article class="category">
           <h3>TRONCHETTO</h3>
-
-          <p>
-            Informazioni d’uso, manutenzione, conservazione e sicurezza.
-          </p>
-
+          <p>Informazioni d’uso, manutenzione, conservazione e sicurezza.</p>
           <span class="status">Documento in preparazione</span>
         </article>
 
         <article class="category">
           <h3>SCARPA CON TACCO</h3>
-
-          <p>
-            Informazioni d’uso, manutenzione, conservazione e sicurezza.
-          </p>
-
+          <p>Informazioni d’uso, manutenzione, conservazione e sicurezza.</p>
           <span class="status">Documento in preparazione</span>
         </article>
 
         <article class="category">
           <h3>STRINGATA</h3>
+          <p>Informazioni d’uso, manutenzione, conservazione e sicurezza.</p>
+          <span class="status">Documento in preparazione</span>
+        </article>
 
-          <p>
-            Informazioni d’uso, manutenzione, conservazione e sicurezza.
-          </p>
-
+        <article class="category">
+          <h3>SNEAKER</h3>
+          <p>Informazioni d’uso, manutenzione, conservazione e sicurezza.</p>
           <span class="status">Documento in preparazione</span>
         </article>
       </div>
@@ -259,20 +263,20 @@
         contattare:
       </p>
 
-      <p>
-        <strong>[indirizzo e-mail aziendale]</strong>
-      </p>
+      <a
+        class="contact-link"
+        href="mailto:Ufficiocommerciale@cult-milano.it?subject=Segnalazione%20sicurezza%20prodotto%20GPSR"
+      >Ufficiocommerciale@cult-milano.it</a>
     </section>
 
     <p class="note">
-      Pagina provvisoria. I dati identificativi definitivi e i documenti
-      specifici per categoria saranno pubblicati appena approvati.
+      I documenti specifici per categoria saranno pubblicati appena disponibili.
     </p>
   </main>
 
   <footer>
     <div class="container">
-      Cult Milano · Informazioni GPSR · Versione provvisoria 1.0
+      CULT MILANO Srl · Informazioni GPSR · Versione 1.1
     </div>
   </footer>
 </body>
